@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="ppp"></p>
+<button onclick="guru()">click</button>
+<p id="demo"></p>
+
+<script>
+	var a = "giraj bharat manoj vicky rocky giraj";
+	document.getElementById('ppp').innerHTML = a;
+function guru() 
+{
+  var b = /giraj/g;
+  var c = a.match(b);
+  document.getElementById("demo").innerHTML = c;
+}
+</script>
+</body>
+</html>
